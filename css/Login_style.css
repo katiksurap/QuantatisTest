@@ -1,0 +1,38 @@
+/* CSS Document */
+/*
+    Designer     : Visweswara Naidu Marrapu
+*/
+
+body{ font-size:13px; font-family:Arial; margin:0px; }
+img{ border:none; }
+
+/* text links  */
+
+a{font-size:13px; color:#002f6a; font-family:Arial; text-decoration:none;}
+a:hover{color:#005fd5;}
+
+.link{color:#C98F8F; font-size:12px; line-height:5px; text-align:center }
+
+/* ######### logo area  ######### */
+
+#loginpage{width:522px; margin:0px auto; padding-top:150px; padding-left:200px; height:260px;  
+background-image: url(../images/loginBg.jpg); background-repeat:no-repeat; }
+
+#loginarea{margin:0px; width:180px; float:right;  height:195px; padding-top:20px;  margin-right:80px;}
+#linksarea{float:right; margin-top:100px; padding-right:20px; width:325px; }
+
+#space{ height:50px; margin:0px auto; clear:both; }
+
+/* ######### login forms  ######### */
+
+
+div.loginrow { margin:0px; padding:5px 5px; line-height:18px; font-size:13px;  color:#756F5D }
+div.loginrow .input{ width:140px; height:22px; background-image:url(../images/bg_input.gif); padding:2px 4px; border:0px; line-height:18px;  }
+div.loginrow span.label_logn {float: left;  margin:0px; width: 85px; font-weight:bold; text-decoration:none;  text-align: left; }
+div.loginrow span.forml_logn a{width: 250px;  margin:0px; } 
+
+/* ######### buttons  ######### */
+.loginBtn{
+background-image:url(../images/loginBtn.gif); background-repeat:no-repeat;  height:31px;  width:63px;  border:0px; cursor:hand; text-align:center; background-color:transparent;
+}
+#footer{width:100%; margin:0px; font-size:12px; text-align:center; color:#A69D87; height:35px; line-height:35px; }

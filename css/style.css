@@ -1,0 +1,100 @@
+/* CSS Document */
+body{ font-size:13px; font-family:Arial; margin:0px; padding:0px; background:url( ../images/backgound.png);width: 100%;}
+img{ border:none; }
+
+a{ font-size:12px; font-family:Arial; text-decoration:none; color:#989898 }
+a:hover{ text-decoration:none; color:#000066}
+
+/*---------------Headings------------*/
+
+.link{color:#FF5C62; font-size:13px; line-height:30px; padding-left:10px;}
+.link:hover{color:#006699;}
+
+.link2{color:#FF5C62; font-size:13px; }
+
+#heading{ border-bottom:1px solid #E5A9A9; color:#ED1C24; font-size:17px; margin:0px auto; clear:both; font-weight:bold; line-height:30px; padding-left:10px; width:970px; height:30px }
+.green{ color:#006633; font-size:14px;}
+.red{color:red; font-size:14px;}
+h3{ color:#FF5C62; font-size:13px; font-weight:bold; line-height:30px;  border-bottom:1px solid #ccc; height:30px}
+
+
+/*---------------main body------------*/
+#mainBody{ width:990px; margin:0 auto;  clear:both; background-color:#fff; border-top:2px solid red }
+#logo{ float:left; padding:5px; margin:5px;}
+#title{ float:right;  text-align:right;  margin:5px; padding:0px;} 
+#header{ width:990px; margin:0px auto; clear:both; height:75px;}
+	
+#footer{width:917px; margin:0 auto; clear:both; height:35px; padding-top:10px; background-image:url(../images/gradent.jpg); background-repeat: repeat-x;; text-align:center; color:#857E6B; font-size:12px; }
+
+#ScrollTbl{width:980px; overflow-x:scroll; overflow-y:hidden;  margin:0px auto; clear:both; overflow:auto; }
+
+#chart{width:300px; float:left; margin-left:5px; border:1px solid #ABD8F2; }
+
+#ScrollAll{width:880px; margin:0px auto; clear:both; overflow:auto; height:100%; }
+
+
+#btnsBg{ width:600px; clear:both; margin:auto; padding:3px; text-align:center}
+
+
+#content{ width:990px; clear:both; margin:0px auto;  padding:5px 5px 30px 5px; overflow:auto;background-color: #fff;}
+#content input,textarea, select{margin:0px; padding:2px; color:#291F10; font-size:13px;  border:1px solid  #aaa  }
+
+#content .btn{margin-left:3px; font-family:"Arial",  serif; font-size:13px; font-weight:bold; padding:1px 6px; line-height:26px; height:27px; background-image:url(../images/btn_bg.gif); background-repeat: repeat-x; color:#001B35; background-color:#A69D87;  border:5px sold #A69D87;   font-weight:bold; }  
+/* ######### Tabs ######### */	
+	
+#tabsbg{width:900px; margin:0 auto; clear:both; height:38px; padding-top:4px; padding-left:80px; background-image:url(../images/bg_nav.jpg); background-repeat: repeat-x; }
+
+.suckertreemenu ul{margin:0px; padding:0px; list-style-type: none;}
+.suckertreemenu ul li{position: relative; display: block; float: left;}
+
+.suckertreemenu ul li a{display: inline;  padding:7px 23px 12px 18px;  border-left:1px solid #FFA1A1; line-height:30px;text-decoration: none; font-weight:bold; font-size:13px; color: #fff; }	
+/*1st sub level menu*/
+.suckertreemenu ul li ul{left: 0;position: absolute;top: 1em;display: block; visibility: hidden;}
+.suckertreemenu ul li ul li{display: list-item; float: none; z-index:1;}
+
+.suckertreemenu ul li ul{left: 0; position: absolute; top: 1em; display: block; visibility: hidden;  border:1px solid #FFA1A1; }
+.suckertreemenu ul li ul li ul{ left: 159px; top: 0; }
+
+.suckertreemenu ul li ul li a{display: block; color: #FF0000; text-decoration: none;  background-color:#fff;  background-image:url(../images/arrow1.gif); background-repeat:no-repeat; background-position:left; padding: 6px 20px; width:125px;   border-bottom:1px solid #FFA1A1; height:15px; line-height:15px; font-size:12px; font-weight:normal; margin:0px; }
+.suckertreemenu ul li ul li a:hover{ background-color:#FFE5E3; color:#FF0000; border-top:0px;  padding: 6px 20px; width:125px; background-image:url(../images/arrow.gif); background-repeat:no-repeat; background-position:left;  height:15px; line-height:15px; font-size:12px; font-weight:normal; }
+.suckertreemenu ul li a:hover{background-color:#FFF; color: #FF0000; border-TOP:2px solid #7D0005}
+.suckertreemenu ul li .active{background-color:#FFF; color: #FF0000; border-TOP:2px solid #7D0005}
+
+.suckertreemenu .mainfoldericon{background:url(../images/arrow-down.gif) no-repeat center right;}
+
+/*Background image for subsequent level menu list links */
+.suckertreemenu .subfoldericon{background: url(../images/arrow-right.gif) no-repeat center right;}
+
+* html p#iepara{ /*For a paragraph (if any) that immediately follows suckertree menu, add 1em top spacing between the two in IE*/
+padding-top: 1em;
+}
+	
+#trackH1{width:705px; background-image:url(../images/Ringtone_heading.jpg); background-repeat:no-repeat;  margin:0px; float:left; height:40px; padding-left:40px;  background-color:#fff; color:#000000; font-size:12px; padding-top:15px; font-weight:bold }
+
+#tracklist{width:680px; background-image:url(../images/bg-move.jpg); background-repeat:repeat-x;  margin-left:30px; float:left; padding-left:5px;  background-color:#fff;  border:1px solid #B9B9B9}
+
+#tracklist .left{width:150px; float:left; color:#666; font-size:10px; text-decoration:none; line-height:15px;  margin-right:10px; padding:5px;}
+#tracklist .right{width:500px; float:left;  font-size:11px;   margin:0px; padding:5px;}
+#tracklist .right ul{list-style-type: none; margin:4px; padding:0px; }
+#tracklist .right li{display:inline;margin:0;padding:5px;}
+#tracklist .right li a{color:red; text-decoration:none; vertical-align:middle; font-weight:bold; font-size:12px;}
+#tracklist .right li a:hover{color:#000; background-color:#fff;}
+
+.btn{margin-left:3px; font-family:arial; font-size:12px; font-weight:bold; padding:2px 2px;  height:20px; color:#fff; background-color:#DA251C;  border: 2px double #FC0047;   font-weight:bold;   }
+
+/* Holly Hack for IE \*/
+* html .suckertreemenu ul li { float: left; height: 1%; }
+* html .suckertreemenu ul li a { height: 1%; }
+
+
+/* ######### Table ######### */	
+
+
+table.attable {	border-spacing:1; margin:0px auto; clear:both; border-collapse:collapse; color:#1f3695; line-height:20px;}
+table.attable th, table.attable td {text-align: left;border-style: solid; border-color: #99BCD2;}
+table.attable th { background: #F1D3D3; width:980px; color: #8E6262; font-size:12px;  padding: 2px 4px; text-align: left; border: 1px solid #fff;line-height:18px; height:18px; background-image:url(../images/table_hed.gif); background-repeat:repeat-x }
+table.attable td {border-width: 1px 1px 1px 1px;  padding:5px 5px; font-size:12px; border-color:#fff; }
+table.attable tr.odd td { background-image:url(../images/table_row.gif); background-repeat:repeat-x; background-color: #FFFFFF; color: #989898; line-height:15px; }
+table.attable tr.even td { text-align: left; color:#7E7E7E; background-color:#F1EFE9; line-height:15px;  }
+.OverLay {padding-top:5px; border:2px solid red;position: fixed;border-radius:15px; z-index: 3; opacity: 2; filter: alpha(opacity = 150); top: 200px; bottom: 200px; left: 150px; right: 0; width: 73%; height: 45%; background-color:#FFCCCB ;}
+.div.jtable-main-container{font-size: 0px;}    
